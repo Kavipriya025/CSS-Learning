@@ -1,0 +1,10 @@
+.card{
+    background-color:blueviolet;
+    border: 3px solid black;
+    padding:30px;
+}
+.container{
+    display:grid;
+    gap:20px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}

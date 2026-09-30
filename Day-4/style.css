@@ -1,0 +1,17 @@
+.one {
+ background-color: black;
+ color:yellow;
+ padding: 10px;
+ text-align: center;   
+}
+h1{
+    font-size: 50px;
+}
+.two{
+    margin-top: 20px;
+    border:10px solid black;
+    height:100px;
+}
+p{
+    padding-left: 20px;
+}
