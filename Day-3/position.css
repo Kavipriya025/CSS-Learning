@@ -1,0 +1,44 @@
+.parent{
+    width:300px;
+    height:200px;
+    background-color: lightblue;
+    position: relative;
+}
+.child{
+    width:100px;
+    height:60px;
+    background-color: pink;
+    position:absolute;
+    bottom:10px;
+    right:40px;
+}
+/*.child{
+    width:100px;
+    height:60px;
+    background-color: pink;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+}*/
+.header{
+    background-color: red;
+    padding:20px;
+    position:sticky;
+    top:0;
+}
+/*overflow*/
+.box{
+    width:200px;
+    height:100px;
+    border:2px solid black;
+    overflow:auto;/*visible,hidden,scroll*/
+    opacity:0.5;
+}
+img{
+    width:200px;
+    height:100px;
+    float:left;/*left,none*/
+}
+p{
+    clear:none;
+}

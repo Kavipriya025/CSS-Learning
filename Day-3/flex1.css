@@ -1,0 +1,18 @@
+.container{
+    height: 300px;
+    width:400px;
+    display:flex;
+    flex-direction: row;
+    border:3px solid green;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+    padding:10px;
+}
+
+.box{
+    height:100px;
+    width:150px;
+    background-color: lightblue;
+    border:2px solid black;
+}
