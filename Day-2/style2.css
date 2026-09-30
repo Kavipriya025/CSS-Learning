@@ -1,0 +1,30 @@
+.card{
+    width:700px;
+    padding:20px;
+    background: radial-gradient( circle, red,orange,pink);
+    color:blanchedalmond;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow:2px 2px 2px black;
+}
+.card p{
+    font-size: 30px;
+    font-weight: bold;
+    word-spacing: 5px;
+    line-height:1;
+    
+}
+.card button{
+    font-size: 20px;
+    background-color: burlywood;
+    font-weight: bold;
+    color:black;
+    text-shadow: 3px 3px 3px white;
+
+
+}

@@ -1,0 +1,69 @@
+/*colors*/
+/*div{
+    background-color: yellow;
+}
+div h1{
+    color:#ff0000;
+}
+div p{
+    color:rgb(0,0,255);
+}
+#message{
+background-color:rgba(255,0,0,1);
+}
+#card{
+background-color:hsl(120,100%,50%);
+}
+.card{
+    background-color: hsla(250,100%,70%,1);
+}
+.button{
+    color:white;
+    background-color:rgba(0,255,0,1)
+}*/
+/* background image*/
+/*body{
+    height:100vh;
+    background-image: url(img/wal.jpg),url(img/Hibiscus.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed ;
+
+}*/
+/*body{
+    background: linear-gradient(to right, red 0%,yellow 50%,blue 100%);
+background:radial-gradient(red,yellow,white,green);
+    background:conic-gradient(pink,red,blue);
+    background: linear-gradient(to right,#6a11cb,#2575fc);
+    background: radial-gradient(circle,red 0%,yellow 50%, green 100%);
+    background: conic-gradient(from 180deg at center,red,yellow,blue);}*/
+div{
+    width: 300px;
+    height:150px;
+    margin:20px;
+}
+
+    .linear{
+        background: linear-gradient(to right,red,blue);
+    }
+    .radial{
+        background: radial-gradient(circle, green,white);
+
+    }
+    .conic{
+        background:conic-gradient(red,green,yellow);
+    }
+.parent{
+    background-color: brown;
+    width: 500px;
+}
+.child{
+    background-color:#00ff00;
+    width: 50%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+

@@ -1,0 +1,30 @@
+input{
+    width:300px;
+    border:2px solid black;
+    padding:10px;
+    font-size: 18px;
+}
+input:focus{
+    border:3px solid blue;
+    outline:none;
+}
+input:hover{
+    background-color: pink;
+}
+button{
+    background-color: blue;
+    font-size: 18px;
+    padding:10px 20px;
+    border:none;
+    border-radius: 15px;
+    color:white;
+    transition: 0.3s;
+    box-shadow: 5px,5px,10px,gray;
+}
+button:hover{
+    background-color:chartreuse ;
+    transform:scale(1.1);
+}
+button:active{
+    background-color: red;
+}

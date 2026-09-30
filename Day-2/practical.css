@@ -1,0 +1,26 @@
+button{
+    background-color: blue;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius: 15px;
+    font-size:30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: green;
+}
+
+input{
+    width:200px;
+    padding: 10px 20px;
+    background-color: white;
+}
+input:hover{
+    background-color:pink;
+}
+input:focus{
+border: 5px solid blue;
+outline:none; 
+}

@@ -1,0 +1,36 @@
+.profile{
+    width:600px;
+    height: 250px;
+    background:linear-gradient(to right,pink,blue,violet);
+    color:antiquewhite;
+    padding :10px;
+    margin:5px;
+}
+.profile h1{
+    font-family:Verdana;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow:2px 4px 5px black ;
+    font-weight: bold;
+}
+.profile p{
+    color:black;
+    font-size:25px;
+    font-weight: bold;
+    font-style:italic;
+    font-family: 'Lucida Sans';
+}
+.profile button{
+    height:35px;
+    background-color: burlywood;
+    font-size: 15px;
+    color:black;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration:none;
+}
+.profile a{
+    text-decoration:none;
+    color:white;
+}
