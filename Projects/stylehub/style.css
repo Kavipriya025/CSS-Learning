@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    background-color:green;
+    color:white;
+    padding: 15px;
+    cursor:pointer;
+}
+h1,li,ul{
+    display: inline;
+}
+ul{
+    margin-left: 40%;
+}
+li{
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header h1{
+    font-family: cursive;
+    font-size: 45px;
+    font-weight: bold;
+}
+.header li a{
+    text-decoration: none;
+    color:white;
+    
+}
+.header li a:hover{
+    color:orangered;
+}
+.home{
+    padding:50px;
+    
+}
+.home h2{
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-family: lucida calligraphy;
+    color:blue;
+    text-shadow: 4px 4px 8px gray;
+    margin-left: 250px;
+}
+.home h2 span{
+    color: orangered;
+}
+.home p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    word-spacing: 3px;
+    line-height: 1.5;
+    text-align:left;
+}
+.home button{
+    margin-left:  550px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight:bold;      
+    background-color:orange ;
+    border:2px solid black;
+    cursor:pointer;
+}
+.home button:hover{
+    background-color: green;
+    color:white;
+}
+.collections h2{
+ padding: 20px;
+ text-align: center;
+ font-family: Lucida calligraphy;
+ font-size: 35px;
+ color:brown;   
+ font-weight: bold;
+}
+.cards{
+    display: flex;
+    margin-left: 50px;
+    gap:30px;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+}
+.box{
+    width:220px;
+    height: 420px;
+    border: 2px solid black;
+    line-height: 1.2;
+    word-spacing: 2px;
+    cursor: pointer;
+}
+.box h3,p{
+   margin-left: 13px;
+}
+
+.box button{
+    margin-left: 20px;
+    margin-top: 6px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight:bold;      
+    background-color:aqua ;
+    border:2px solid black;
+    cursor:pointer;
+}
+
+.box button:hover{
+    background-color: green;
+    color:white;
+
+}
+.box:hover{
+    background-color: pink;
+}
+.aboutus{
+    margin-top: 50px;
+
+}
+.aboutus h2{
+    text-align: center;
+    font-family: Lucida calligraphy;
+    font-size: 35px;
+    color:brown;   
+    font-weight: bold;           
+}
+.contactus{
+    margin-top: 30px;
+    background-color: green;
+
+}
+.contactus h2{
+    text-align: center;
+    font-family: Lucida calligraphy;
+    font-size: 35px;
+    color:white;   
+    font-weight: bold; 
+}
+fieldset{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+
+    margin-top:15px;
+    width: 250px;
+    height:30px;
+    border-radius: 5px;
+    text-align: center;
+}
+input:focus{
+    background-color:yellow;
+}
+.contactus button{
+    padding: 15px;
+    width:200px;
+    border-radius: 15px;
+    background-color: aqua;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+.contactus button:hover{
+    background-color:orangered ;
+    color:white;
+    transition: 0.5;
+}
+@media screen and (max-width:600px)
+{
+    .box{
+        width:90%;
+    }
+}
