@@ -1,0 +1,44 @@
+/*Universal selector*/
+*{
+    /*color:brown;*/
+    padding:0;
+    margin:0;
+
+}
+
+/*group selecttor*/
+/*h2,p{
+    color:red;
+}*/
+.text{
+    color:blue; 
+}
+/*class selector*/
+.card{
+    color:aqua;
+}
+/*id selector*/
+#message{
+    color:green;
+    font-size: 30px;
+}
+/*descendant selector*/
+/*div p{
+    color:red;
+}*/
+/* child selector*/
+div > p{
+    color:orange;
+}
+/*h4+p{
+    color:darkmagenta;
+}*/
+h4~p{
+    color:crimson;
+}
+input[type="text"]
+{
+    background-color: yellow;
+    border: 1px solid black;
+}
+

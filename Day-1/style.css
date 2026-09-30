@@ -1,0 +1,36 @@
+/*heading style*/
+/*h1{
+    color: purple;
+}*/
+/*paragraph style*/
+/*p{
+    color:green;
+    font-size: 40px;
+}*/
+/*Id,Class,element, Inline CSS*/
+/*h2{
+    color:red;
+}
+h2{
+    color:yellowgreen;
+
+}
+p1{
+    color:blue;
+}
+.text{
+    color:brown;
+
+}
+#para{
+    color:chocolate;
+}/*ID has  higher specificity than element and class*/
+/*div{
+    color:cyan;
+}*/
+.parent{
+    color:darkblue;
+    font-family: Arial;
+    font-size: 55px;
+    
+}
